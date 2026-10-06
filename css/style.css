@@ -7,18 +7,13 @@ html {
 body {
   background-color: #ddbe5f;
 }
+/*Added this because the body had a font that I didn't like*/
+body {
+  background-color: #ddbe5f;
+  font-family: initial;
 
-h1 {
-  text-align: center;
 }
 
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
 
 img {
   width: 50%;
