@@ -47,6 +47,21 @@ img {
   margin: 10px;
 }
 
+html::before {
+  content: "";
+  position: fixed;
+  inset: 1px;               
+  border: 1px solid #222222; 
+  pointer-events: none;       
+  z-index: 9999;              
+}
+
+
+body {
+  padding: 25px; 
+  box-sizing: border-box;
+}
+
  @media (max-width: 600px) {
         .flex-container {
           flex-direction: column;
