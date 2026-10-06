@@ -3,6 +3,10 @@
 html {
   background-color:#ddbe5f ;  
 }
+/*Added this because the body was not inheriting the background color */
+body {
+  background-color: #ddbe5f;
+}
 
 h1 {
   text-align: center;
