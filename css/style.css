@@ -6,15 +6,20 @@ html {
 /*Did research and found this looks better. The line height property makes the line of the text larger than the text, making it feel less cramped */
 body {
   margin: 0;
+  padding: 25px;
+  box-sizing: border-box;
   background-color: #f5edda;
   color: #302719;
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.8;
 }
 
-/*Made text pure black, as the greyish color was hard to read*/
-p {
-  color: rgb(0, 0, 0);
+
+/*Added padding to the main content area to make it more readable*/
+main {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px 30px;
 }
 
 title {
@@ -22,11 +27,22 @@ title {
 }
 
 h2 {
-  color: rgb(0, 0, 0);
+  margin-top: 55px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d2b36b;
+  color: #302719;
+  font-size: 2.3rem;
+  font-weight: normal;
 }
-
+/*made h3 and h2 look different, so it doesnt feel like it is going on and on*/
 h3 {
-  color: rgb(0, 0, 0);
+  margin-top: 35px;
+  padding-left: 14px;
+  border-left: 4px solid #a77b28;
+  color: #79591f;
+  font-size: 1.6rem;
+  font-weight: normal;
 }
 
 img {
@@ -56,10 +72,7 @@ html::before {
 }
 
 
-body {
-  padding: 25px; 
-  box-sizing: border-box;
-}
+
 
  @media (max-width: 600px) {
         .flex-container {
