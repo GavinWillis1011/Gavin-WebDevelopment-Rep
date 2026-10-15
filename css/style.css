@@ -21,10 +21,7 @@ main {
   margin: 0 auto;
   padding: 40px 30px;
 }
-
-title {
-  color: rgb(0, 0, 0);
-}
+/*title wasnt helping anything*/
 
 h2 {
   margin-top: 55px;
@@ -46,10 +43,13 @@ h3 {
 }
 
 img {
-  width: 50%;
-  border-radius: 8px;
   display: block;
-  margin: auto;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  margin: 30px auto;
+  border: 1px solid #c9b58d;
+  border-radius: 4px;
 }
 
 .flex-container {
@@ -65,12 +65,11 @@ img {
 html::before {
   content: "";
   position: fixed;
-  inset: 1px;               
-  border: 1px solid #222222; 
-  pointer-events: none;       
-  z-index: 9999;              
+  inset: 8px;
+  border: 1px solid rgba(125, 91, 36, 0.45);
+  pointer-events: none;
+  z-index: 9999;
 }
-
 
 
 
