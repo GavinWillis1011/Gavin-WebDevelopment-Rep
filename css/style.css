@@ -53,14 +53,21 @@ img {
 img + p {
   text-align: center;
 }
+/*Flexboxes were too cramped*/
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .box {
-  background-color: #d8a200;
+  background-color: #e8d5a3;
   padding: 20px;
-  margin: 10px;
+  margin: 0;
+  border: 1px solid #cbb47e;
+  border-radius: 8px;
+  flex: 1 1 400px;
+  box-sizing: border-box;
 }
 
 html::before {
@@ -75,12 +82,14 @@ html::before {
 
 
  @media (max-width: 600px) {
-        .flex-container {
-          flex-direction: column;
-          align-items: center;
-        }
-      }
+  .flex-container {
+    flex-direction: column;
+  }
 
+  .box {
+    width: 100%;
+  }
+}
 @media (max-width: 600px) {
   body {
     font-size: 16px;
