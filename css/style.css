@@ -41,7 +41,15 @@ h3 {
   font-size: 1.6rem;
   font-weight: normal;
 }
-
+.story-image {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  margin: 20px auto 10px;
+  border: 2px solid #cbb47e;
+  border-radius: 8px;
+}
 img {
   width: 30%;
   max-width: 300px;
@@ -52,6 +60,7 @@ img {
 }
 img + p {
   text-align: center;
+  font-style: italic;
 }
 /*Flexboxes were too cramped*/
 .flex-container {
