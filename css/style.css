@@ -1,15 +1,17 @@
 
-/* I made the page look like parchment, since it is similar to the beginning of Undertale*/
+/* Made the parchment color less intense*/
 html {
-  background-color:#ddbe5f ;  
+  background-color:#f5edda ;  
 }
 /*Added this because the body was not inheriting the background color */
 body {
-  background-color: #ddbe5f;
+  background-color: #f5edda;
+  color: #302719;
+  font-family: 'Times New Roman', Times, serif;
 }
 /*Added this because the body had a font that I didn't like*/
 body {
-  background-color: #ddbe5f;
+  background-color: #f5edda;
   font-family: initial;
 
 }
